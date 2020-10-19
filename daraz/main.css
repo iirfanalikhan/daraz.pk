@@ -1,0 +1,285 @@
+*
+{   
+    overflow-x:hidden ;
+    font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+    margin:0px;
+    padding:0px;
+   
+}
+body
+{
+    background-color:#F5F5F5;
+}
+/*navbar start*/
+header{
+    
+    height: 100px;
+    background-color:white;
+}
+
+header .nav
+{   
+    
+    width:100%;
+    height:25px;
+    background-color:#ECECEC ;
+    position:sticky;
+}
+header .nav ul
+{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    left: 42.4%;
+    line-height:1;
+}
+header .nav ul li
+{
+    padding: 3px 14px 3px 15px;
+    
+}
+
+header .nav ul li a
+{
+    font-size:12px;
+    color:#504d4d;
+    font-weight:549;
+    text-decoration: none;
+}
+header .nav ul li a:hover
+{
+    color:#f36f36;
+    text-decoration: underline;
+}
+header .nav ul li span
+{
+color:  #f36f36;
+}
+/*navbar End*/
+
+/*row second start*/
+.rowsec
+{   
+    position: absolute;
+    left: 6%;
+    padding-top: 11px;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.rowsec #logo img{
+    width: 135px;
+    height: 41px;
+  
+}
+    
+.rowsec #downloadapp img
+{
+    width: 188px;
+    height: 45px;
+}
+.rowsec #searchbar input
+{
+    width:711px;
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    background-color:#F5F5F5;
+    border-radius: 3px;
+    border:unset;
+    position: relative; 
+    left:9.5%;
+    padding-left:19px;
+}
+.rowsec input::placeholder 
+{
+    color:rgb(156, 152, 152);
+}
+.rowsec  #searchbutton button{
+ 
+    border:unset;
+    position: relative;
+    height: 45x;
+    background-color: white;
+
+
+}
+.rowsec  #searchbutton button img
+{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius:3px;
+    border:unset;
+    height: 45x;
+
+}
+
+.rowsec #cart{
+    position: relative; 
+    left:1.89%;
+    padding-top:10px;
+}
+.rowsec #downloadapp
+{   
+  
+    position: relative;
+    left:5.51%;
+}
+/*row second End*/
+/*slider start*/
+.slider
+{
+    width:5760px;
+    overflow: hidden;
+    animation:slidermover 16s infinite ;
+}
+@keyframes slidermover{
+    0%,20%,30%{margin-left:0px;}
+    40%,50%,60%  {margin-left:-1440px;}
+    70%,80%  {margin-left:-2880px;}
+    90%  {margin-left:-4320px;}
+    100%{margin-left: 0px;}
+}
+.rapper
+{
+    width:auto;
+    display: flex; 
+}
+
+.sc
+{
+    background-color: #4A90E2;
+    width:1440px;
+}
+.charchol
+{
+    background-color: #164F98;
+    width:1440px;
+}
+.mega
+{
+    background-color: #201D83;
+    width:1440px;ss
+}
+.mahru
+{
+    background-color: #FBD1AD;
+    width:1440PX;
+}
+.rapper img{
+    margin-left:5.9%;
+    height: 350px;
+}
+/*slider End*/
+
+/* ROw 4*/
+#row4
+{
+    display: flex;
+    margin-left: 22px;
+    padding-top: 12px;
+    
+}
+.row4box a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.row4box:hover{
+    text-decoration: none;
+    box-shadow: 1px 1px 100pc grey;
+    z-index: 100;
+    
+}
+.row4box
+{   
+    overflow: hidden;
+    width: 228px;
+    height: 40px;
+    border-radius: 410px;
+    background-color: white;
+    margin: 10px;
+}
+.row4boximg
+{
+    height: 32px;
+    width: 32px;
+    margin: 4px;
+}
+.r4s
+{
+    position: relative;
+    bottom: 12px;
+    font-size: 16px;
+    font-style: bold;
+}
+
+/*   ROW 5 */
+#row5sub
+{
+    display: flex;
+    width: 1188px;
+    background-color: white;
+    margin: 10px;
+}
+#row5sub1
+{
+    width: 1188px;
+    height: 60px;
+    background-color: white;
+    margin: 10px;
+}
+#row5sub1 span
+{
+    font-size: 14px;
+    color: #f36f36;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+#row5sub1 a
+{
+    font: 12px;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.flashsaleimg
+{
+    width: 188px;
+    height: 188px;
+}
+.row5subsub
+{
+    width: 188px;
+    height: 288px;
+    background-color: white;
+    margin: 6px;
+    margin-right: 1px;
+    border: 1px solid black;
+    ;
+}
+.row5subsub:hover
+{
+    box-shadow: 10px 10px 10px black;
+}
+h3{
+    font-size: 14px;
+    margin: 5px;
+}
+.row5subsub a
+{
+    font-size: 12px;
+    margin: 5px;
+}
+.dis
+{
+    font-size: 10px;
+    color: #f36f36;
+    margin: 5px;    
+}
+h2
+{
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 00px;
+    font-size: 22px;
+}
